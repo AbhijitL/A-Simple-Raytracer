@@ -4,6 +4,8 @@ A simple raytracer for learning purpose.
 
 # Screen Shots
 
+This image below takes 10 min to complete the render on my machine
+
 <img src="https://i.ibb.co/LYS1srM/finals.jpg" width="350" title="smsg = figd">
 
 
