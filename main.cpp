@@ -1,4 +1,5 @@
 
+
 #include "camera.h"
 #include "hittable_list.h"
 #include "material.h"
@@ -73,7 +74,7 @@ hittable *random_scene() {
 
 int main() {
     std::ofstream myFile;
-    myFile.open("final.ppm");
+    myFile.open("final.ppm"); // the output file name is final.ppm
     int nx = 1200;
     int ny = 800;
     int ns = 10;
@@ -104,6 +105,7 @@ int main() {
             int ib = int(255.99*col[2]);
             std::cout << ir << " " << ig << " " << ib << "\n";
             myFile<< ir << " " << ig << " " << ib << "\n";
+            //The output is stored in ppm format 
         }
     }
 }
